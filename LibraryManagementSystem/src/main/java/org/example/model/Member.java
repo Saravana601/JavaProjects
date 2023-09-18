@@ -1,4 +1,6 @@
-package org.example;
+package org.example.model;
+
+import org.example.model.Book;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +13,14 @@ public class Member {
 
     public Member(String name, int memberID) {
         this.name = name;
+        this.memberID = memberID;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setMemberID(int memberID) {
         this.memberID = memberID;
     }
 

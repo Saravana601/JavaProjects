@@ -1,8 +1,10 @@
-package org.example;
+package org.example.model;
+
+import org.example.model.Book;
+import org.example.model.Member;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-import java.util.List;
 
 public class Transaction {
     private Member member;

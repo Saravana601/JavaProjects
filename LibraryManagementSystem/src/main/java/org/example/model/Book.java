@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 public class Book {
     private String title;
@@ -7,12 +7,27 @@ public class Book {
 
     private boolean available;
 
+    public Book() {
+    }
+
 
     public Book(String title, String author, String ISBN) {
         this.title = title;
         this.author = author;
         this.ISBN = ISBN;
         this.available = true;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
     }
 
 
