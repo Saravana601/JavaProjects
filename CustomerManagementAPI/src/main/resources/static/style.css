@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.loginid{
+padding: 10px;
+
+}
+
+.form-input {
+    width: 100%; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    padding: 5px;
+}
+
+/* Center the submit button */
+.form-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+body{
+    padding: 10%;
+}
+
+/* Add spacing between customer fields and rows */
+.customer-field, .customer-row {
+    margin-bottom: 10px;
+}
+
+/* Add spacing between columns */
+.customer-field {
+    margin-right: 10px;
+}
+
+/* Style buttons with sky-blue color */
+.submit, #showCreateCustomerForm, input[type="submit"] {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.form-section{
+    display: flex;
+    padding: 30px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.centered-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.centered-table th,
+.centered-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.centered-table th {
+    background-color: #f2f2f2;
+}
+
+/* Add spacing between action icons in the table */
+.edit-icon,
+.delete-icon {
+    margin-right: 5px;
+}
+
+/* Center the customer fields container */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+}
+
+/* Center the submit button */
+.form-button {
+    text-align: center;
+}
+
+/* Add space between rows of input fields */
+.form-section-1 {
+    margin-right: 20px;
+}
+
+/* Add space between input fields */
+.form-input {
+    margin-bottom: 10px;
+}
+
+.edit-icon, .delete-icon {
+    font-size: 20px;
+    color: blue;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
