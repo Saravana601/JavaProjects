@@ -10,7 +10,6 @@ This is a Customer Management web application built with Java Spring Boot and HT
 4. [How to Use](#how-to-use)
 5. [API Endpoints](#api-endpoints)
 6. [Contributing](#contributing)
-7. [License](#license)
 
 ## Introduction
 
@@ -54,6 +53,8 @@ The application exposes the following API endpoints:
 
 Contributions to this project are welcome. If you have any suggestions or improvements, please feel free to create a pull request or open an issue.
 
-## License
+## Contact
 
-This project is licensed under the [Your License Name](link-to-license).
+If you have any questions or suggestions, feel free to contact me at the following
+- [Gmail](saravanad2401@gmail.com).
+- [LinkedIn](https://www.linkedin.com/in/saravanad2401/).
