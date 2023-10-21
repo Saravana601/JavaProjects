@@ -53,6 +53,7 @@ public class CustomerService {
         String token = "Bearer dGVzdEBzdW5iYXNlZGF0YS5jb206VGVzdEAxMjM=";
 
         HttpHeaders headers = new HttpHeaders();
+        // set headers
         headers.set("Authorization", token);
         headers.set("Accept", "text/html");
 
